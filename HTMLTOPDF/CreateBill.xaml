@@ -1,0 +1,30 @@
+﻿<Page x:Class="HTMLTOPDF.CreateBill"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HTMLTOPDF"
+      mc:Ignorable="d" d:DesignWidth="587.663"
+      Title="CreateBill" Height="511.151">
+
+    <Grid>
+        <Label Content="Company Name:" HorizontalAlignment="Left" Margin="87,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.893,0.44" FontSize="18"/>
+        <TextBox x:Name="CompanyName" HorizontalAlignment="Left" Height="23" Margin="243,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.912,0.662" FontSize="18"/>
+        <Label Content="GST NO.:" HorizontalAlignment="Left" Margin="87,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.254,0.542" FontSize="18"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="86,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.585,0.621" FontSize="18"/>
+        <Label Content="Product:" HorizontalAlignment="Left" Margin="87,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.7,1.056" FontSize="18"/>
+        <Label Content="Quantity:" HorizontalAlignment="Left" Margin="87,368,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Price:" HorizontalAlignment="Left" Margin="87,312,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="GST_NO" HorizontalAlignment="Left" Height="23" Margin="243,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.431,0.563" FontSize="18"/>
+        <TextBox x:Name="Address" HorizontalAlignment="Left" Height="23" Margin="243,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="Product" HorizontalAlignment="Left" Height="23" Margin="243,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="Price" HorizontalAlignment="Left" Height="23" Margin="243,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.528,-0.106"/>
+        <TextBox x:Name="Quantity" HorizontalAlignment="Left" Height="23" Margin="243,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="440,110,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.61,-0.806" Height="90" Click="Button_Click_1"/>
+        <Button x:Name="Print" Content="Print" HorizontalAlignment="Left" Margin="440,259,0,0" VerticalAlignment="Top" Width="75" Height="87" RenderTransformOrigin="0.52,0.831" Click="Button_Click"/>
+        <Label Content="Mob No:" HorizontalAlignment="Left" Margin="87,430,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="MobNo" HorizontalAlignment="Left" Height="23" Margin="243,441,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" TextChanged="TextBox_TextChanged_1"/>
+        <Label x:Name="test" Content="Label" HorizontalAlignment="Left" Margin="456,441,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
